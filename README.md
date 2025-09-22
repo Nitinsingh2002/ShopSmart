@@ -41,5 +41,4 @@ erDiagram
         ShopName string
         IsVendorVerified bool
     }
-    ApplicationUser ||--|| Customer : has
-    ApplicationUser ||--|| Vendor : has
+    

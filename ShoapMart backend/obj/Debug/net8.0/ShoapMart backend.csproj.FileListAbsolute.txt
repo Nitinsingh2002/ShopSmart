@@ -1,0 +1,36 @@
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\appsettings.Development.json
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\appsettings.json
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.staticwebassets.endpoints.json
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.exe
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.deps.json
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.runtimeconfig.json
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.pdb
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.csproj.AssemblyReference.cache
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.AssemblyInfoInputs.cache
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.AssemblyInfo.cs
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.csproj.CoreCompileInputs.cache
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.MvcApplicationPartsAssemblyInfo.cs
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.MvcApplicationPartsAssemblyInfo.cache
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.sourcelink.json
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\scopedcss\bundle\ShoapMart backend.styles.css
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets.build.json
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets.development.json
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets\msbuild.ShoapMart backend.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets\msbuild.ShoapMart backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets\msbuild.build.ShoapMart backend.props
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ShoapMart backend.props
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ShoapMart backend.props
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMar.95474829.Up2Date
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.dll
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\refint\ShoapMart backend.dll
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.pdb
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.genruntimeconfig.cache
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ref\ShoapMart backend.dll

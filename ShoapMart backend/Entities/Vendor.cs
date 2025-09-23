@@ -8,7 +8,7 @@ namespace ShopMart.Api.Entities
 
         // Foreign key to ApplicationUser
         public string UserId { get; set; } = string.Empty;
-        public virtual ApplicationUser User { get; set; } = null!;
+        public  ApplicationUser User { get; set; } = null!;
 
     }
 }

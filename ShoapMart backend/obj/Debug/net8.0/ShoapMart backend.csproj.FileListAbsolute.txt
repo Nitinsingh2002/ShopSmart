@@ -1,28 +1,43 @@
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\appsettings.Development.json
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\appsettings.json
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.staticwebassets.endpoints.json
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.exe
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.deps.json
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.runtimeconfig.json
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.pdb
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\AutoMapper.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Azure.Core.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Azure.Identity.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Humanizer.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -30,20 +45,14 @@ D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Mono.TextTemplating.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.CodeDom.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.Composition.Convention.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.Composition.Hosting.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.Composition.Runtime.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.Composition.TypedParts.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.Drawing.Common.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\System.Memory.Data.dll
@@ -104,10 +113,8 @@ D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Worksp
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
@@ -133,9 +140,15 @@ D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets\msbuild.build.Sh
 D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ShoapMart backend.props
 D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ShoapMart backend.props
 D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\staticwebassets.pack.json
-D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMar.95474829.Up2Date
 D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.dll
 D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\refint\ShoapMart backend.dll
 D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.pdb
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\appsettings.Development.json
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\appsettings.json
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.staticwebassets.endpoints.json
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.deps.json
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.runtimeconfig.json
+D:\ShopSmart\ShoapMart backend\bin\Debug\net8.0\ShoapMart backend.pdb
+D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMar.95474829.Up2Date
 D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ShoapMart backend.genruntimeconfig.cache
 D:\ShopSmart\ShoapMart backend\obj\Debug\net8.0\ref\ShoapMart backend.dll

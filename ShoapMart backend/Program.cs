@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using ShoapMart.Api.Data;
 using ShoapMart.Api.Data.Seed;
+using ShoapMart.Api.interfaces;
+using ShoapMart.Api.Mappings;
+using ShoapMart.Api.Repositories;
 using ShopMart.Api.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,6 +31,14 @@ builder.Services.AddIdentityCore<ApplicationUser>()
 .AddTokenProvider<DataProtectorTokenProvider<ApplicationUser>>("ShoapMart")
 .AddEntityFrameworkStores<ShopMartContext>()
 .AddDefaultTokenProviders();
+
+//registering services for DI
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+
+
+
+//inject automapper
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 //setting password rules and other things
 builder.Services.Configure<IdentityOptions>(options =>

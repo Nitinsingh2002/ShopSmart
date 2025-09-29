@@ -5,6 +5,7 @@ using ShoapMart.Api.DTOs;
 using ShoapMart.Api.interfaces;
 using ShopMart.Api.Entities;
 using ShopMart.Api.Interfaces;
+using ShopMart.Api.DTOs;
 
 namespace ShopMart.Api.Controller
 {
@@ -109,7 +110,6 @@ namespace ShopMart.Api.Controller
 
 
 
-        // API for login user
         [HttpPost("/auth/login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDTO loginRequestDto)
         {
@@ -118,26 +118,99 @@ namespace ShopMart.Api.Controller
                 var token = await _IAuthrepo.LoginUserAsync(loginRequestDto);
                 return Ok(new
                 {
-                    success = true,
-                    token = token
+                    Success = true,
+                    Token = token
                 });
-
             }
             catch (UnauthorizedAccessException uaEx)
             {
-                return Unauthorized(new { success = false, message = uaEx.Message });
+                return Unauthorized(new
+                {
+                    Success = false,
+                    Message = uaEx.Message
+                });
             }
             catch (InvalidOperationException ioEx)
             {
-                return BadRequest(new { success = false, message = ioEx.Message });
+                return BadRequest(new
+                {
+                    Success = false,
+                    Message = ioEx.Message
+                });
             }
             catch (Exception ex)
             {
                 return StatusCode(500, new
                 {
-                    success = false,
-                    message = "An error occurred during login. Please try again later.",
-                    detailError = ex.Message
+                    Success = false,
+                    Message = "An unexpected error occurred during login.",
+                    Details = ex.Message
+                });
+            }
+        }
+
+
+
+        //API for send OTP[HttpPost("send-otp")]
+        [HttpPost("send-otp")]
+        public async Task<IActionResult> SendOtp([FromBody] string email)
+        {
+            try
+            {
+                await _IAuthrepo.SendOtpAsync(email);
+                return Ok(new { Success = true, Message = "OTP sent successfully" });
+            }
+            catch (UnauthorizedAccessException uaEx)
+            {
+                return Unauthorized(new { Success = false, Message = uaEx.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Success = false, Message = "Failed to send OTP", Details = ex.Message });
+            }
+        }
+
+
+        //Api for validate OTP
+
+        [HttpPost("validate-otp")]
+        public async Task<IActionResult> ValidateOTP([FromBody] ValidateOtpRequestDTO validateOtpRequestDTO)
+        {
+            try
+            {
+                var token = await _IAuthrepo.ValidateOtpAsync(validateOtpRequestDTO);
+
+                return Ok(new
+                {
+                    Success = true,
+                    Message = "OTP validated successfully",
+                    Token = token
+                });
+            }
+            catch (UnauthorizedAccessException uaEx)
+            {
+                return Unauthorized(new
+                {
+                    Success = false,
+                    Message = uaEx.Message
+                });
+            }
+            catch (InvalidOperationException ioEx)
+            {
+                // User has no roles assigned
+                return BadRequest(new
+                {
+                    Success = false,
+                    Message = ioEx.Message
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    Success = false,
+                    Message = "An error occurred while validating OTP",
+                    Details = ex.Message
                 });
             }
         }

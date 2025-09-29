@@ -10,10 +10,12 @@ namespace ShoapMart.Api.Data
         public DbSet<Vendor> Vendors { get; set; }
         public DbSet<Customer> Customers { get; set; }
 
+        public DbSet<UserOTP> UserOtps { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            
+
             builder.Entity<ApplicationUser>()
             .HasOne(u => u.CustomerProfile)
             .WithOne(c => c.User)
@@ -23,6 +25,12 @@ namespace ShoapMart.Api.Data
                 .HasOne(u => u.VendorProfile)
                 .WithOne(v => v.User)
                 .HasForeignKey<Vendor>(v => v.UserId);
+
+            builder.Entity<ApplicationUser>()
+            .HasMany(u => u.Otps)
+            .WithOne(o => o.User)
+            .HasForeignKey(o => o.UserId)
+            .OnDelete(DeleteBehavior.Cascade);
 
         }
 

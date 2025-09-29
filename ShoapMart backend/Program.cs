@@ -6,6 +6,7 @@ using ShoapMart.Api.Data.Seed;
 using ShoapMart.Api.interfaces;
 using ShoapMart.Api.Mappings;
 using ShoapMart.Api.Repositories;
+using ShoapMart.Api.Services;
 using ShopMart.Api.Entities;
 using ShopMart.Api.Interfaces;
 using ShopMart.Api.Services;
@@ -37,6 +38,8 @@ builder.Services.AddIdentityCore<ApplicationUser>()
 //registering services for DI
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 builder.Services.AddScoped<ITokenRepository, JwtTokenServices>();
+builder.Services.AddHttpClient<IOTPRepository, OTPService>();
+
 
 
 

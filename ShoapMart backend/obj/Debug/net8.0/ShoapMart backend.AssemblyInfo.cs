@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShoapMart backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7eb326e1868b6ba4283655199cee0a0fcda6de38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ecf37bac4cd4ffadbff4ac625f95cc78e293292")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShoapMart backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShoapMart backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
